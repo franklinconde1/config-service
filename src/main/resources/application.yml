@@ -5,4 +5,8 @@ Spring:
     config:
       server:
         git:
-          
+          default-label: config-server
+          uri: https://github.com/franklinconde1/config-service.git
+          search-paths: config-data
+  application:
+    name: config-service
